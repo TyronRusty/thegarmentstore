@@ -44,6 +44,13 @@
     height: auto;
     margin-bottom: 0.5em;
 }
+
+@media only screen and (max-width: 767px) {
+  .shopping-content{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 .product-title{
     font-size: 1.1rem;
     font-weight: 600;
