@@ -16,7 +16,7 @@
   .wrapper .carousel{
     white-space: nowrap;
     display: flex;
-    flex-direction: row;
+    flex-direction: vertical;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
