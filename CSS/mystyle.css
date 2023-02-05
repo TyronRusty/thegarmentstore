@@ -13,14 +13,13 @@
 
   }
 
-.wrapper .carousel{
+  .wrapper .carousel{
     white-space: nowrap;
     display: flex;
-    flex-direction: vertical;
+    flex-direction: row;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-   
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -30,6 +29,14 @@
     object-fit: cover;
     padding: 5px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .carousel img{
+    width: 200px;
+    height: 300px; 
+  }
+}
+
 
 .shopping-content{
     display: grid;
@@ -45,7 +52,7 @@
     margin-bottom: 0.5em;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
   .shopping-content{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
