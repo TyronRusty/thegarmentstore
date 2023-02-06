@@ -1,4 +1,4 @@
-.wrapper {
+.wrapperOne {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -10,7 +10,7 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .wrapper .carousel {
+  .wrapperOne .carouselOne {
     white-space: nowrap;
     display: flex;
     flex-direction: row;
@@ -21,7 +21,7 @@
     justify-content: center;
   }
 
-  .carousel img {
+  .carouselOne img {
     width: 50%;
     height: auto;
     object-fit: cover;
@@ -29,7 +29,7 @@
   }
 }
 
-.wrapper .carousel {
+.wrapperOne .carouselOne {
   white-space: nowrap;
   display: flex;
   flex-direction: row;
@@ -40,7 +40,7 @@
   justify-content: center;
 }
 
-.carousel img {
+.carouselOne img {
   width: 400px;
   height: 600px;
   object-fit: cover;
@@ -48,7 +48,7 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .carousel img {
+  .carouselOne img {
     width: 40%;
     height: auto;
   }
