@@ -90,9 +90,12 @@
  
   
 }
-
+h1{
+  padding-bottom: 3%;
+}
 
 .form-group {
+  
   margin-bottom: 20px;
 }
 
