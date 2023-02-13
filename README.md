@@ -4,6 +4,7 @@
 The Garment Store is a premium online clothing destination that offers a wide range of stylish and high-quality garments for fashion-forward individuals. Our website features a user-friendly interface and a sleek design, making it easy for customers to browse and purchase the latest fashion trends.
 
 The website is built using the latest technologies, including Bootstrap for the responsive design and HTML, CSS, and JavaScript for the front-end development. These technologies ensure that our website looks great and works seamlessly on all devices, from desktops to smartphones.
+PS: the dev branch is up to date not the main
 
 
 ## Demo
