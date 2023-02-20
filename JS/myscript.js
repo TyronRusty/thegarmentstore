@@ -60,3 +60,21 @@ form.addEventListener("submit", function(event) {
 });
 
 loadUsers();
+  // Disable the selected options in the dropdown menus
+  const sizeDropdown = document.getElementById("size");
+  const colorDropdown = document.getElementById("color");
+
+  // Disable the selected size
+  sizeDropdown.options[sizeDropdown.selectedIndex].disabled = true;
+  // Disable the selected color
+  colorDropdown.options[colorDropdown.selectedIndex].disabled = true;
+
+  // Add event listeners to re-enable the disabled options when a new option is selected
+  sizeDropdown.addEventListener("change", () => {
+      sizeDropdown.options[sizeDropdown.selectedIndex].disabled = false;
+  });
+
+  colorDropdown.addEventListener("change", () => {
+      colorDropdown.options[colorDropdown.selectedIndex].disabled = false;
+  });
+  
